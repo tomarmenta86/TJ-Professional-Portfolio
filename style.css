@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+/*HEADER ELEMENT*/
 header{
     display: flex;
     justify-content: space-between;
@@ -10,7 +11,7 @@ header{
     padding: 30px 115px;
     background-color: aqua
 }
-
+/*NAVLINK BUTTON STYLING*/
 li, a, button {
     font-family: monospace;
     font-weight: 300;
@@ -19,14 +20,15 @@ li, a, button {
     text-decoration: none;
 }
 
-
+/*HEADER IMG*/
 .placeholder {
     cursor:pointer;
     max-width: 13%;
     height: auto;
+
     
 }
-
+/*NAVLINK BAR*/
 .navlinks{
     list-style: none;
     padding: 9px 25px;
@@ -36,7 +38,7 @@ li, a, button {
     background-color: rgb(245, 92, 179);
    
 }
-
+/*NAVLINK FORMATTING*/
 .navlinks li {
     display: inline-block;
     padding: 0px 75px;
@@ -77,7 +79,55 @@ button :hover {
 body {
     background-color: rgb(245, 92, 179) ;
 }
+/*BOXES FOR INFO*/
+.sections{
+    border: 20px solid rebeccapurple;
+    background-color: rgb(255, 255, 255);
+    padding: 300px;
+    margin: 77px;
+    width: 60%;
+    height: 100px;
+    /*BACKGROUND IMAGE ON SECTIONS*/
+    background-image: url(aboutmeplaceholder.png);
+    background-repeat: repeat;
+    background-size: 30%;
+    
+   
+    
 
+    
+}
+/*SECTIONS TEXT*/
+.sections section {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+   
+}
+/*SECTIONS HEADERS*/
+.sections #aboutme{
+ 
+   font-size: 16px;
+   font-family: monospace;
+   background-color: rgb(245, 92, 179);
+   border: 14px solid;
+   border-color: white ;
+   border-radius: 30px;
+   text-align: center;
+   color: aqua;
+   box-shadow: 0px 0px 0px 20px;
+   width: 100%;
+   margin-bottom: 10%;
+   display:
+   
+}
+/*HOVER ELEMENT ON 'ABOUT ME' SECTION*/
+.sections #aboutme:hover{
+    color: rgb(52, 255, 52);
+    background-color: rgb(0, 0, 0);
+}
+.sections h1{
+  
+}
 
 
 #footer { 
