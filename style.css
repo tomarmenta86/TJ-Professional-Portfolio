@@ -11,6 +11,7 @@ header{
     padding: 10px 10px;
     background-color: aqua
 }
+
 /*NAVLINK BUTTON STYLING*/
 li, a, button {
     font-family: monospace;
@@ -56,7 +57,7 @@ li, a, button {
 }
 
 button { 
-    padding: 9px 25px;
+    padding: 10px 25px;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -73,6 +74,7 @@ button :hover {
 
 body {
     background-color: rgb(245, 92, 179) ;
+    
 }
 
 /*BOXES FOR INFO*/
@@ -93,6 +95,7 @@ body {
     background-image: url(p1placeholder.png);
     background-repeat: repeat;
     background-size: 30%;
+
 }
 .sections, #p2{
     background-image: url(p2placeholder.png);
@@ -181,10 +184,17 @@ span{
    
 }
 
-#footer { 
+#Footer { 
+    position: relative;
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
     text-align: center;
-    font-size: 500px;
+    font-size: 20px;
     padding: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align:center;
+    
 }
+
+
