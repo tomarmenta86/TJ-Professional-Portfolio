@@ -76,6 +76,21 @@ body {
     background-color: rgb(245, 92, 179) ;
     
 }
+/*name styling*/
+.Name{
+    font-size: 26px;
+   font-family: monospace;
+   background-color: rgb(245, 92, 179);
+   border: 14px solid;
+   border-color: white ;
+   border-radius: 30px;
+   text-align: center;
+   color: aqua;
+   box-shadow: 0px 0px 0px 20px;
+   width:auto;
+   margin-bottom: %;
+   display:
+}
 
 /*BOXES FOR INFO*/
 .sections{
