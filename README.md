@@ -23,3 +23,5 @@ Create a professional portfolio so that prospective employers may review and/or 
 * Requirments are satisfied
 
 https://github.com/tomarmenta86/TJ-Professional-Portfolio
+
+https://tomarmenta86.github.io/TJ-Professional-Portfolio/
