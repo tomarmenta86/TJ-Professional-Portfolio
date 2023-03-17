@@ -22,6 +22,11 @@ Create a professional portfolio so that prospective employers may review and/or 
 * Acceptance criteria is met 
 * Requirments are satisfied
 
+## Screenshots of Deployed Portfolio
+![Screenshot1](PortfolioSC1.png)
+![Screenshot2](PortfolioSC2.png)
+
+
 https://github.com/tomarmenta86/TJ-Professional-Portfolio
 
 https://tomarmenta86.github.io/TJ-Professional-Portfolio/
