@@ -9,21 +9,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-
-
 <body class="body">
     <header>
         <!--Linked place holder image in html-->
         <img class=placeholder src="Untitled.png" alt="placeholder">
         <nav><!--Created links for navbar-->
             <ul class="navlinks">
-                <li><a href="#about me">About Me<a></li>
+                <li><a href="#about">About Me<a></li>
                 <li><a href="#p1">Projects<a></li>
                 <li><a href="#links">Links<a></li>
             </ul>
         </nav>
         <!--added button for contact info-->
-        <a class="Contact" href="links"><button>Contact</a>
+        <a class="Contact" href="links"><button><u>Contact</u></a>
+            <!--Adding dropdowns to contact-->
+            <div class="dropdowns">
+                <a href="#">Phone</a>
+                <a href="#">E-Mail</a>
+              </div>
     </header>
     <body>
         <main><!--copied body elements-->
@@ -41,15 +44,21 @@
             
             <article id="p3" class = sections>
                 <h3 class="projects">Project3</h3>
-                    <Section> ...EVENTUALLY
+                    <Section> ...EVENTUALLY.
                     </Section>
             </article>
         </main>
-    <aside>
-        <h4 class="aboutme">About me</h4>
-            <Section> 
-            </Section>
-    </aside>
+    <article  id="about" class="aside"> 
+        <h4 class = aboutme>About me</h4>
+            <p> 
+                From <span>'96</span> until now:
+                <br>
+                I <span>dreamed</span>.
+                <br> To be a <span>creative</span>; a writer and musician. A pillar of <span>reassurance</span> to anyone I have the potential of <span>influencing</span>. A great <span>friend</span> and a doting father (to my <span>cat</span>).One day... I will be a successful <span>developer</span> as well.
+                <br> Along with those <span>goals</span> I am a Specialty Sales Team Leader at my local Target store. I focus on team <span>development</span>, excel in <span>stakeholder</span> interest management, and am a <span>deliberate</span>strategist who provides an optimal experience, my <span>teams</span>, and the <span>communities</span> we serve.
+                
+            </p>
+    </article>
 
 </body>
 

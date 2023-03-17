@@ -8,7 +8,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 115px;
+    padding: 10px 10px;
     background-color: aqua
 }
 /*NAVLINK BUTTON STYLING*/
@@ -46,7 +46,7 @@ li, a, button {
 
 .navlinks li a {
     font-size: 2vw;
-    padding: 0px 30px; 
+    padding: 0px 15px; 
 }
 
 .navlinks li a:hover {
@@ -78,13 +78,16 @@ body {
 /*BOXES FOR INFO*/
 .sections{
     border: 20px solid rebeccapurple;
+    border-radius: 10%;
     padding: 300px;
-    margin: 77px;
+    margin-bottom: 77px;
+    margin-top: 77px;
+    margin-right: 0%;
     width: 60%;
     height: 100px;
     float: left;
 }
-/*BACKGROUND IMAGEs ON SECTIONS*/
+/*BACKGROUND IMAGES ON SECTIONS*/
 /*UNIQUE BACKGROUNDS*/
 .sections, #p1{
     background-image: url(p1placeholder.png);
@@ -123,7 +126,7 @@ body {
    text-align: center;
    color: aqua;
    box-shadow: 0px 0px 0px 20px;
-   width: 100%;
+   width:auto;
    margin-bottom: 10%;
    display:
    
@@ -133,7 +136,50 @@ body {
     color: rgb(52, 255, 52);
     background-color: rgb(0, 0, 0);
 }
+span{
+    color:aqua;
+    font-weight: 700;
+}
 
+.aside {
+    padding: 2px;
+    margin: 2%;
+    margin-bottom: 10%;
+    margin-right: 7%;
+    width: 20%;
+    height: 588px;
+    float: right;
+    position: relative;
+    bottom: 1539px;
+    /*ASIDE STYLE*/
+    background-color: rgb(245, 92, 179);
+    border: 20px solid;
+    border-color: white;
+    border-radius: 30px;
+    color: aqua;
+    box-shadow: 0px 0px 0px 20px;
+    /*ASIDE TEXT*/
+    font-size: 16px;
+    font-family: monospace;
+    display:grid;
+    /*SCROLLBAR*/
+    overflow-y:scroll;
+}
+
+.aboutme {
+  font-size:50px;
+  margin-bottom: 20px;
+  padding: 1px;
+
+}
+/*about me body*/
+.aside p {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: monospace;
+    text-align: left;
+   
+}
 
 #footer { 
     text-align: center;
@@ -142,23 +188,3 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align:center;
 }
-.aboutme{
-    border: 20px solid rebeccapurple;
-    padding: 10%;
-    margin: 77px;
-    width: 20%;
-    height: 100vw;
-    float: right;
-    font-size: 16px;
-    font-family: monospace;
-    background-color: rgb(245, 92, 179);
-    border: 14px solid;
-    border-color: white ;
-    border-radius: 30px;
-    text-align: center;
-    color: aqua;
-    box-shadow: 0px 0px 0px 20px;
-    margin-bottom: 100%;
-    display:
-    
-    
