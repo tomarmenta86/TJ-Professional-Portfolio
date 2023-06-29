@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*HEADER ELEMENT*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: aqua
+}
+
+/*NAVLINK BUTTON STYLING*/
+li, a, button {
+    font-family: monospace;
+    font-weight: 300;
+    font-size: 16px;
+    color: aqua;
+    text-decoration: none;
+}
+
+/*HEADER IMG*/
+.placeholder {
+    cursor:pointer;
+    max-width: 13%;
+    height: auto;
+
+    
+}
+/*NAVLINK BAR*/
+.navlinks{
+    list-style: none;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 10px 20px  rgb(245, 92, 179);
+    background-color: rgb(245, 92, 179);
+   
+}
+/*NAVLINK FORMATTING*/
+.navlinks li {
+    display: inline-block;
+    padding: 0px 75px;
+}
+
+.navlinks li a {
+    font-size: 2vw;
+    padding: 0px 15px; 
+}
+
+.navlinks li a:hover {
+    color: rgb(52, 255, 52);
+    padding: 0px 30px;
+    text-transform: uppercase;
+}
+
+button { 
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    background-color: rgb(245, 92, 179);
+    box-shadow: 0px 10px 20px  rgb(245, 92, 179);
+    background-color: rgb(245, 92, 179);
+}
+
+button :hover {
+    color: rgb(52, 255, 52);
+    background-color: rgb(0, 0, 0);
+}
+
+body {
+    background-color: rgb(245, 92, 179) ;
+    
+}
+/*name styling*/
+.Name{
+    font-size: 26px;
+   font-family: monospace;
+   background-color: rgb(245, 92, 179);
+   border: 14px solid;
+   border-color: white ;
+   border-radius: 30px;
+   text-align: center;
+   color: aqua;
+   box-shadow: 0px 0px 0px 20px;
+   width:auto;
+   margin-bottom: %;
+   display:
+}
+
+/*BOXES FOR INFO*/
+.sections{
+    border: 20px solid rebeccapurple;
+    border-radius: 10%;
+    padding: 300px;
+    margin-bottom: 77px;
+    margin-top: 77px;
+    margin-right: 0%;
+    width: 60%;
+    height: 100px;
+    float: left;
+}
+/*BACKGROUND IMAGES ON SECTIONS*/
+/*UNIQUE BACKGROUNDS*/
+.sections, #p1{
+    background-image: url(p1placeholder.png);
+    background-repeat: repeat;
+    background-size: 30%;
+
+}
+.sections, #p2{
+    background-image: url(p2placeholder.png);
+    background-repeat: repeat;
+    background-size: 30%;
+}
+.sections, #p3{
+
+    background-image: url(p3placeholder.png);
+    background-repeat: repeat;
+    background-size: 30%;
+}
+
+
+/*SECTIONS TEXT*/
+.sections section {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: monospace;
+    text-align: center;
+   
+}
+/*SECTIONS HEADERS*/
+.sections .projects{
+   font-size: 16px;
+   font-family: monospace;
+   background-color: rgb(245, 92, 179);
+   border: 14px solid;
+   border-color: white ;
+   border-radius: 30px;
+   text-align: center;
+   color: aqua;
+   box-shadow: 0px 0px 0px 20px;
+   width:auto;
+   margin-bottom: 10%;
+   display:
+   
+}
+/*HOVER ELEMENT ON 'ABOUT ME' SECTION*/
+.sections .projects:hover{
+    color: rgb(52, 255, 52);
+    background-color: rgb(0, 0, 0);
+}
+span{
+    color:aqua;
+    font-weight: 700;
+}
+
+.aside {
+    padding: 2px;
+    margin: 2%;
+    margin-bottom: 10%;
+    margin-right: 7%;
+    width: 20%;
+    height: 588px;
+    float: right;
+    position: relative;
+    bottom: 1539px;
+    /*ASIDE STYLE*/
+    background-color: rgb(245, 92, 179);
+    border: 20px solid;
+    border-color: white;
+    border-radius: 30px;
+    color: aqua;
+    box-shadow: 0px 0px 0px 20px;
+    /*ASIDE TEXT*/
+    font-size: 16px;
+    font-family: monospace;
+    display:grid;
+    /*SCROLLBAR*/
+    overflow-y:scroll;
+}
+
+.aboutme {
+  font-size:50px;
+  margin-bottom: 20px;
+  padding: 1px;
+
+}
+/*about me body*/
+.aside p {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: monospace;
+    text-align: left;
+   
+}
+
+#Footer { 
+    position: relative;
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center;
+    
+}
+
+
